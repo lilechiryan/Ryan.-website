@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BK BOND MASTERS CONSTRUCTION LTD - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="{{ url_for('static', filename='images/logo.jpeg') }}" alt="BK Bond Masters Logo" class="logo-img">
+                <span class="company-name">BK BOND MASTERS</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="/" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="/projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <img src="{{ url_for('static', filename='images/logo.jpeg') }}" alt="BK Bond Masters Logo" class="hero-logo">
+            <h1>BK BOND MASTERS CONSTRUCTION LTD</h1>
+            <p>Building Excellence, Creating Legacies</p>
+            <a href="/projects" class="cta-button">View Our Projects</a>
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2>Our Work</h2>
+            <p class="section-subtitle">Showcasing our finest construction projects</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="{{ url_for('static', filename='images/construction1.jpg') }}" alt="Modern Construction Project 1">
+                    <div class="overlay">
+                        <p>Commercial Project</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="{{ url_for('static', filename='images/construction2.jpg') }}" alt="Modern Construction Project 2">
+                    <div class="overlay">
+                        <p>Residential Development</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="{{ url_for('static', filename='images/construction3.jpg') }}" alt="Modern Construction Project 3">
+                    <div class="overlay">
+                        <p>Industrial Build</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="{{ url_for('static', filename='images/construction4.jpg') }}" alt="Modern Construction Project 4">
+                    <div class="overlay">
+                        <p>Infrastructure Work</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>
+                BK BOND MASTERS CONSTRUCTION LTD is a premier construction company dedicated to delivering 
+                exceptional quality and superior service. With years of experience in the industry, we specialize 
+                in residential, commercial, and industrial projects.
+            </p>
+            <div class="features">
+                <div class="feature">
+                    <h3>Quality</h3>
+                    <p>We maintain the highest standards in all our projects.</p>
+                </div>
+                <div class="feature">
+                    <h3>Reliability</h3>
+                    <p>On-time delivery and professional execution guaranteed.</p>
+                </div>
+                <div class="feature">
+                    <h3>Innovation</h3>
+                    <p>Using modern techniques and sustainable practices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h4>Phone</h4>
+                    <p>+1 (555) 123-4567</p>
+                </div>
+                <div class="contact-item">
+                    <h4>Email</h4>
+                    <p>bkhomesltd@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <h4>Address</h4>
+                    <p>Nairobi Kenya Thika Road</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 BK BOND MASTERS CONSTRUCTION LTD. All rights reserved.</p>
+    </footer>
+</body>
+</html>
